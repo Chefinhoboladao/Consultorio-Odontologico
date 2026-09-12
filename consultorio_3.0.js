@@ -71,27 +71,3 @@ function atualizarLista() {
     })
     respLista.innerText = lista
 }
-
-/*
-Abordagem
-AS duas funcionam, mas tem propositos diferentes
-
-Uma fila (paciente[])                                 - Duas filas (urgencia[]) e paciente[])
-Mais econômica em memoria                             - Código é mais organizado 
-Exige controlar a posição dos urgentes                - Não precisa controlar indices
-Mais dificil de manter                                - mais fácil de enteder e expandir
-Boa para exercicios sobre arrays                      - Mais próxima de sistemas reais 
-
-
-----------------------------------------------------------------------------------------------------
-
-Vantagens da segunda solução:
-
-- Código mais organizado
-- Não precisa usar splice() nem controlar uma váriavel como pacUrgencia 
-- A lógica fica mais intuitiva: duas filas independentes
-- Facilita futuras melhorias, como adicionar novas prioridades 
-
-Essa solução é mais organizada e segue um conceito muito utilizado em sistemas reais e programação:
-Separar por prioridade e manter duas filas independentes
-*/
