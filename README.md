@@ -1,6 +1,4 @@
-﻿# Consultorio-Odontologico
- 
-# 🦷 Consultório Odontológico
+﻿ # 🦷 Consultório Odontológico
 
 Projeto desenvolvido para praticar **HTML, CSS e JavaScript**, simulando uma fila de pacientes em um consultório odontológico.
 
